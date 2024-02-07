@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn - Blaze Trips</title>
+    <link rel="icon" type="image" href="logo2.png">
+    <link href="login.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="video-background">
+    <video autoplay loop muted>
+        <source src="" type="video/mp4">
+    </video>
+    </div>
+    
+        <nav class="navbar">
+            <a href="#" class="brand">Blaze Trips</a>
+            <ul class="nav-links">
+              <li><a href="adv.html">Home</a></li>
+              <li><a href="vol.html">Flights</a></li>
+              <li><a href="destinations.html">Destinations</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="login.html">Log In</a></li>
+            </ul>
+          </nav>
+
+          <div class="cent">
+          <div class="login-container" action="/login" method="post">
+            <form class="login-form">
+                <h2>Log In</h2>
+                <div class="input-group">
+                    <label for="username">Email:</label>
+                    <input type="email" id="username" name="username" placeholder="Enter email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter password" required>
+                </div>
+                <div class="check">
+                  <input type="checkbox" name="" id="remember">
+                  <label for="remember">Remember Me</label>
+                </div>
+                <button type="submit">Log In</button>
+                <p>Don't have an account ? <a href="signup.html">Sign up</a></p>
+            </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright &copy;2024; Designed by <span class="designed">Khalid</span></p>
+      </div>
+</body>
+</html>

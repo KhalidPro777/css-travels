@@ -1,0 +1,160 @@
+body{
+    background-image: url(airport.webp) ;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    margin: 0%;
+    padding: 0%;
+    background-size: cover;
+
+}
+
+
+.navbar {
+    background-color: #ffcc00;
+    padding: 12px 35px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0%;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .brand {
+    text-decoration: none;
+    color: #000000; 
+    font-size: 1.4em;
+    margin-left: 75px;
+  }
+
+
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  
+  .nav-links li:last-child {
+    margin-right: 40px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #7e6f6f; 
+    font-weight: lighter;
+    transition: color 0.3s ease; 
+    font-size: 19px;
+  }
+  
+  .nav-links a:hover {
+    color: #000000; 
+  }
+
+
+    h1{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+
+    .form-container {
+        background-color: #ffcc00;
+        width: 300px;
+        height: auto;
+        border-radius: 50px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 100px;
+        padding: 50px;
+        box-shadow: 0 0 10px rgb(0, 132, 255);
+        animation: fadeInLeft 1s ease-in-out;
+        margin-bottom: 100px;
+        
+      }
+      @keyframes fadeInLeft {
+        from {
+          opacity: 0;
+          transform: translateX(-20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+      
+      .form-group {
+        margin-bottom: 20px;
+      }
+      .form-label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      .form-input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      .form-button {
+        padding: 10px 20px;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;  
+        background-color: #007bff;
+        width: 50%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+      }
+
+      .form-button:hover {
+        background-color: #0056b3;
+    }
+    .form-button:active{
+      background-color: #1f0b79;
+    
+    }
+
+      .footer-bottom{
+        background-color: #000000;
+        padding: 20px;
+        text-align: center;
+        margin-top: 0%;
+      }
+      .footer-bottom p{
+        color: white;
+      }
+      
+      .designed{
+        opacity: 0.7;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 400;
+        margin: 0px 5px;
+      }
+
+      @media screen and (max-width: 768px) {
+        .nav-links li {
+            margin-right: 0;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+    
+        .nav-links.show {
+            display: flex;
+        }
+    
+        .nav-links a {
+            font-size: 14px;
+        }
+    }
+
+  

@@ -1,0 +1,306 @@
+body{
+    background-image: url(backimage.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    background-color: #ffffff;
+    margin: 0%;
+    padding: 0%;
+}
+background-image{
+  width: 100%;
+  height: auto;
+}
+.video-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -1; 
+}
+
+.video-background video {
+  width: 100%; 
+  height: auto;
+}
+
+
+.navbar {
+    background-color: #ffcc00;
+    padding: 12px 35px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0%;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .brand {
+    text-decoration: none;
+    color: #000000; 
+    font-size: 1.4em;
+    margin-left: 75px;
+  }
+
+
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  
+  .nav-links li:last-child {
+    margin-right: 40px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #7e6f6f; 
+    font-weight: lighter;
+    transition: color 0.3s ease; 
+    font-size: 19px;
+  }
+  
+  .nav-links a:hover {
+    color: #000000; 
+  }
+
+ 
+  .btn-dest a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+  }
+  .btn-dest{
+    background-color: rgb(43, 153, 255);
+   border-radius: 10px;
+   border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  }
+
+  .btn-dest:hover{
+   background-color: blue;
+  }
+  .btn-dest:active{
+    background-color: #000000;
+  }
+  .lfo9{
+    background-image: url();
+        background-size: cover;
+        color: white;
+        text-align: center;
+        padding: 100px 0;
+        margin-top: 100px;
+  }
+  .p1{
+    font-size: 20px;
+  }
+  .h1-1{
+    font-size: 40px;
+  }
+
+
+  .des-title{
+    text-align: center;
+    margin-top: 190px;
+    color: rgb(0, 0, 0);
+    border: rgb(0, 0, 0) 1px solid;
+  }
+
+.gallery{
+  
+  margin: 45px;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #777;
+  border-radius: 5px;
+}
+.gallery img {
+  width: 350px;
+  height:300px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 5px;
+}
+.desc{
+    color: #000000;
+    padding: 7px;
+    text-align: center;
+    font-size: 25px;
+}
+.gallery:hover{
+  border: #ffd900 solid 1px;
+  color: #ffd900;
+}
+
+
+
+.footer-container{
+  width: 100%;
+  padding: 50px 0px 10px;
+  background-color: #111;
+}
+
+.socialicons{
+  display: flex;
+  justify-content: center;
+}
+
+.socialicons a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.socialicons a i{
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+
+.socialicons a:hover{
+  background-color: #111;
+  transition: 0.5s;
+}
+
+.socialicons a i:hover{
+  color:white ;
+  transition: 0.5s;
+}
+.footer-nav{
+  margin: 30px 0;
+}
+
+.footer-nav ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.footer-nav ul li a{
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7s;
+  transition: 0.5s;
+}
+
+.footer-nav ul li a:hover{
+  opacity: 1;
+}
+.footer-bottom{
+  background-color: #000000;
+  padding: 20px;
+  text-align: center;
+}
+.footer-bottom p{
+  color: white;
+}
+
+.designed{
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+
+@media (max-width:768px){
+  .footer-nav ul{
+    flex-direction: column;
+  }
+  .footer-nav ul li{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+  }
+}
+
+.learn-btn{
+  background-color: rgb(43, 153, 255);
+  color: white;
+  border-radius: 5px;
+  padding: 8px;
+  border: 1px white solid;
+  width: 90px;
+  cursor: pointer;
+  margin-top: -15px;
+  margin-bottom: 30px;
+}
+
+.learn-btn a{
+  color: white;
+  text-decoration: none;
+}
+.learn-btn:hover{
+  background-color: blue;
+  transition: 1.2s;
+}
+
+.learn-btn:active{
+  background-color: rgb(0, 0, 126);
+}
+
+/* CSS Existant */
+
+/* Ajoutez des requêtes média pour gérer les différentes tailles d'écran */
+@media screen and (max-width: 768px) {
+  /* Pour les écrans plus petits, comme les tablettes */
+  .nav-links {
+      display: block;
+      text-align: center;
+  }
+
+  .nav-links li {
+      display: block;
+      margin: 10px 0;
+  }
+  .gallery img {
+    width: 100%;
+    height: auto;
+}
+}
+
+@media screen and (max-width: 480px) {
+  /* Pour les écrans encore plus petits, comme les téléphones */
+  .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .nav-links {
+      width: 100%;
+  }
+
+  .nav-links li {
+      display: block;
+      width: 100%;
+  }
+
+  .nav-links a {
+      display: block;
+      width: 100%;
+  }
+  .gallery img {
+    width: 100%;
+    height: auto;
+}
+}
+
+/* Vous pouvez ajouter d'autres styles responsive ici */
